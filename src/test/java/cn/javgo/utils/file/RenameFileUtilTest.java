@@ -1,4 +1,4 @@
-package cn.javgo.utils;
+package cn.javgo.utils.file;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

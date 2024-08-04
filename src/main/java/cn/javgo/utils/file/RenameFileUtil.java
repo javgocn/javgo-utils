@@ -1,4 +1,4 @@
-package cn.javgo.utils;
+package cn.javgo.utils.file;
 
 import java.io.File;
 import java.io.IOException;
