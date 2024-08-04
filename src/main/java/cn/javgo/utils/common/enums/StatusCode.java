@@ -18,7 +18,10 @@ public enum StatusCode {
 
     // 业务异常
     LOCK_FAIL(5000, "获取分布式锁失败"),
-    LOCK_FAIL_GET_LOCK_TIMEOUT(5002, "获取分布式锁失败, 获取锁超时");
+    LOCK_FAIL_GET_LOCK_TIMEOUT(5002, "获取分布式锁失败, 获取锁超时"),
+
+    // 自定义用户可见的请求失败异常
+    USER_VIEW_FAIL(1000, "用户可见的请求失败");
 
 
     private final int code;

@@ -10,3 +10,5 @@
   * [RedisKeyPrefix.java](src/main/java/cn/javgo/utils/distributed/constans/RedisKeyPrefix.java)
   * [RedisLock.java](src/main/java/cn/javgo/utils/distributed/anno/RedisLock.java)
   * [RedisLockSupport.java](src/main/java/cn/javgo/utils/distributed/aspect/RedisLockSupport.java)
+* [通用 API 接口封装 - ApiResponse](src/main/java/cn/javgo/utils/common/ApiResponse.java)
+* [全局异常处理 - GlobalExceptionHandler](src/main/java/cn/javgo/utils/exception/GlobalExceptionHandler.java)

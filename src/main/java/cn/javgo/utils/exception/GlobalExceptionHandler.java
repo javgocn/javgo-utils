@@ -30,4 +30,11 @@ public class GlobalExceptionHandler {
         log.error("运行时异常: {}", e.getMessage());
         return ApiResponse.fail(StatusCode.INTERNAL_SERVER_ERROR, e.getMessage());
     }
+
+    @ExceptionHandler(UserViewException.class)
+    @ResponseBody
+    public ApiResponse<Object> handleUserViewException(UserViewException e) {
+        log.error("用户可见的请求异常: {}", e.getMessage());
+        return ApiResponse.fail(StatusCode.USER_VIEW_FAIL, e.getMessage());
+    }
 }
