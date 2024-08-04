@@ -18,7 +18,7 @@ public class RenameFileUtilTest {
 
     @BeforeEach
     public void setUp() {
-        List<String> blacklists = List.of("【海量资源：666java.com】");
+        List<String> blacklists = List.of("【xxxxxx】");
         renameFileUtil = new RenameFileUtil(blacklists);
     }
 
